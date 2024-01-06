@@ -6,6 +6,13 @@ public class Student
 	private int id;
 	private String name;
 	private String address;
+	private long mobno;
+	public long getMobno() {
+		return mobno;
+	}
+	public void setMobno(long mobno) {
+		this.mobno = mobno;
+	}
 	public int getId() {
 		return id;
 	}
